@@ -11,9 +11,9 @@ import rasterio
 import numpy as np
 
 # Input
-raster_class_path = "" # Tree species fractions raster
+raster_class_path = ""                    # Tree species fractions raster
 raster_heightmask_path = ""               # Binary Height Raster : 0 = vegetation < 2m  /  1 = vegetation > 2m
-vector_path = ""                          # Polygons with inventory values from step 2
+vector_path = ""                          # Polygons with inventory values from step 1
 output_path_frac = ""                     # specify output
 
 # Look-up for raster
