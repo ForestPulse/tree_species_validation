@@ -7,7 +7,7 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 
 #--------Setup--------|
-input       = ""      # input geopackage with ground truth and prediction values for tree species 0-100% from step 4
+input       = ""      # input geopackage with ground truth and prediction values for tree species 0-100% from step 3
 gt_prefix   = "gt_"
 pred_prefix = "pred_"
 
