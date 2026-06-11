@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 # Setup
-polygons  = "" # Polygons on which the calculation should be based upon  
+polygons  = "" # Polygons geopackage on which the calculation should be based upon  
 trees     = "" # sample point data e.G. BI-data geopackage
 output    = "output_BE.gpkg"
 
