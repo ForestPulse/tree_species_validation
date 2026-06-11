@@ -6,7 +6,7 @@ import geopandas as gpd
 import numpy as np
 
 # Input
-input_gpkg = "" # Input from Step 3
+input_gpkg = "" # Input from Step 2
 output_gpkg = ""
 baumarten_cols = ['buche', 'eiche', 'fichte', 'tanne', 'kiefer',
                   'ahorn', 'andere', 'erle', 'douglasie', 'laerche', 'birke']
