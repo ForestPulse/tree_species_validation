@@ -6,16 +6,16 @@ import pandas as pd
 import numpy as np
 
 # Setup
-polygons  = "" # Polygons on which the calculation should be based upon e.G. "BAZ_aggregiert_BE.gpkg"
-trees     = "" # sample point data e.G. "BI_Daten_Johanniskreuz.gpkg"
+polygons  = "" # Polygons on which the calculation should be based upon 
+trees     = "" # sample point data 
 output    = ""
 
-polygon_id       = "weflbkz"         # primary key for polygons
-target_variable  = "Standfläche"     # target for the ratio estimator
-weight_a         = "GEWICHT_A"       # weight A from BI data
+polygon_id       = ""                # primary key for polygons
+target_variable  = ""                # target for the ratio estimator
+weight_a         = "GEWICHT_A"       # weight A from sampling data
 grid_density     = 150               # distance between plot points [m]
 outer_radius     = 12                # outer radious of sample plot [m]
-height_col       = "HOEHE"           # height attribute for layering
+height_col       = ""           # height attribute for layering
 
 tree_species = ["Buche","Fichte","Kiefer","Eiche","Ahorn","Andere","Laerche","Birke","Erle","Douglasie","Tanne"]
 
