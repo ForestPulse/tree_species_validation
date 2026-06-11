@@ -7,7 +7,7 @@ import numpy as np
 
 # Input
 input_gpkg = "" # Input from Step 3
-output_gpkg = "gt_pred_BE.gpkg"
+output_gpkg = ""
 baumarten_cols = ['buche', 'eiche', 'fichte', 'tanne', 'kiefer',
                   'ahorn', 'andere', 'erle', 'douglasie', 'laerche', 'birke']
 
